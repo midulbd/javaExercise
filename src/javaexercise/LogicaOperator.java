@@ -18,7 +18,7 @@ public class LogicaOperator {
             System.out.println("Enter girls age");
             girlAge=age.nextInt();
             
-            if (boyAge>16 && girlAge>16) 
+            if (boyAge>16 || girlAge>16) 
             {
                 System.out.println("valid to ge3t married");
                 
