@@ -23,6 +23,18 @@ public class EnhancedForLoop {
         
         System.out.println("toal is "+ total);
        
+          int num []= {9,10,11,12,13,14,15}; 
+          int sum = 0;
+        
+        for(int y : num)
+        {
+            System.out.println("value of y "+ y);
+            total +=y;
+            if ( y == 13) break;
+        }
+         
+        
+        System.out.println("toal is "+ total);
     }
     
     
